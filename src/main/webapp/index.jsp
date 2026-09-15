@@ -1117,6 +1117,28 @@
             }
         }
     </style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+:root{--bg:#f6f7fb;--bg-card:#fff;--primary:#111827;--primary-2:#1f2937;--accent:#635bff;--accent-2:#7c3aed;--accent-soft:#efedff;--muted:#667085;--muted-light:#98a2b3;--surface:#f2f4f7;--line:#e7eaf0;--success:#12b76a;--warning:#f79009;--radius:20px;--radius-sm:14px;--shadow:0 8px 30px rgba(16,24,40,.06);--shadow-hover:0 20px 55px rgba(16,24,40,.13);--transition:.25s cubic-bezier(.4,0,.2,1);--container:1280px}
+html{scroll-behavior:smooth}body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--primary);line-height:1.6}h1,h2,h3,h4,.brand{font-family:'Manrope',sans-serif}a{text-decoration:none}.container{max-width:var(--container);width:calc(100% - 40px)}
+header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.86);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(231,234,240,.8);box-shadow:0 4px 20px rgba(16,24,40,.035)}
+.header-inner{min-height:78px;gap:24px}.brand{font-size:22px;font-weight:800;letter-spacing:-.6px;color:#111827}.brand i{display:inline-grid;place-items:center;width:38px;height:38px;margin-right:9px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;box-shadow:0 8px 20px rgba(99,91,255,.25)}.brand .accent{color:var(--accent)}
+.main-nav a{font-weight:600;color:#667085;border-radius:10px;padding:9px 11px;transition:var(--transition)}.main-nav a:hover,.main-nav a.active{color:var(--accent);background:var(--accent-soft)}.search-wrap{border:1px solid var(--line);background:#fff;border-radius:13px;box-shadow:none;transition:var(--transition)}.search-wrap:focus-within{border-color:#b7b2ff;box-shadow:0 0 0 4px rgba(99,91,255,.09)}.search-wrap input{font-family:inherit}.icon-btn{width:42px;height:42px;border-radius:12px;background:#fff;border:1px solid var(--line);color:#344054;transition:var(--transition)}.icon-btn:hover{transform:translateY(-2px);border-color:#c9c5ff;color:var(--accent);box-shadow:0 8px 18px rgba(16,24,40,.08)}.cart-count{background:var(--accent);border:2px solid #fff}
+.hero{min-height:590px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(9,14,29,.86) 0%,rgba(9,14,29,.62) 48%,rgba(9,14,29,.2) 100%),url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=2000&q=85') center/cover!important}.hero .container{padding:90px 0}.hero h1{max-width:700px;font-size:clamp(42px,6vw,76px);line-height:1.02;letter-spacing:-2.8px;color:#fff;margin-bottom:22px}.hero p{max-width:650px;font-size:18px;color:rgba(255,255,255,.82);margin-bottom:32px}.hero .badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:#fff;backdrop-filter:blur(10px);border-radius:999px;padding:9px 14px}.actions{gap:13px}.btn{border-radius:13px;padding:13px 19px;font-weight:700;transition:var(--transition);border:1px solid transparent}.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 10px 24px rgba(99,91,255,.3)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 15px 30px rgba(99,91,255,.38)}.btn-ghost{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.3);color:#fff}.btn-ghost:hover{background:#fff;color:#111827}
+.section{padding:88px 0}.section-header{margin-bottom:34px}.section-header h2{font-size:32px;letter-spacing:-1px}.section-header p{color:var(--muted)}.view-all{font-weight:700;color:var(--accent)}
+.categories-grid{grid-template-columns:repeat(6,1fr);gap:16px}.category-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 16px;box-shadow:var(--shadow);transition:var(--transition)}.category-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-hover);border-color:#d6d2ff}.category-card .icon{width:54px;height:54px;border-radius:16px;background:linear-gradient(135deg,#f1efff,#e9e5ff);color:var(--accent);display:grid;place-items:center;margin-bottom:14px}.category-card h3{font-size:15px}.category-card p{color:var(--muted);font-size:13px}
+.products-grid{grid-template-columns:repeat(4,1fr);gap:22px}.product-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow);transition:var(--transition)}.product-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-hover);border-color:#d9d5ff}.product-card .product-img{background:#f3f4f6;overflow:hidden}.product-card .product-img img{transition:transform .5s ease}.product-card:hover .product-img img{transform:scale(1.045)}.product-card .wishlist{width:38px;height:38px;border-radius:11px;background:rgba(255,255,255,.94);box-shadow:0 5px 18px rgba(0,0,0,.1)}.product-card .wishlist:hover{color:#ef476f}.product-card .product-info{padding:18px}.product-card h3{font-size:16px;line-height:1.35}.product-card .category,.product-card .meta{color:var(--muted);font-size:13px}.product-card .price{font-size:19px;font-weight:800;color:#111827}.product-card .old-price{text-decoration:line-through;color:#98a2b3;font-size:13px}.product-card .rating{color:#f79009}.product-card .add-cart{width:100%;border-radius:12px;background:#111827;color:#fff;padding:11px 14px;font-weight:700;transition:var(--transition)}.product-card .add-cart:hover{background:var(--accent);transform:translateY(-1px)}
+.deal-wrap{display:grid;grid-template-columns:1.05fr .95fr;background:linear-gradient(135deg,#111827,#1e1b4b);border-radius:28px;overflow:hidden;box-shadow:0 25px 70px rgba(17,24,39,.18)}.deal-img{min-height:430px}.deal-img img{width:100%;height:100%;object-fit:cover}.deal-content{padding:55px;color:#fff}.deal-content .tag{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:999px;color:#fff}.deal-content h2{font-size:40px;line-height:1.08;letter-spacing:-1.3px}.deal-content .desc{color:rgba(255,255,255,.7)}.price-big{font-size:32px;font-weight:800}.price-big .old{font-size:15px;color:rgba(255,255,255,.45);text-decoration:line-through}.stock{color:#b7f7d2}.timer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.timer-box{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:13px;text-align:center}.timer-box .num{font-size:25px;font-weight:800}.timer-box .label{font-size:11px;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.7px}
+.testimonials-list,.testimonials-grid{gap:18px}.testimonial-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow)}.testimonial-card .quote{font-size:15px;color:#344054}.testimonial-card .author{font-weight:700}.testimonial-card .stars{color:#f79009}
+.newsletter{background:linear-gradient(135deg,#111827,#312e81);border-radius:26px;padding:48px;color:#fff;box-shadow:0 20px 60px rgba(17,24,39,.15)}.newsletter h2{font-size:34px}.newsletter p{color:rgba(255,255,255,.7)}.newsletter form{background:#fff;border-radius:13px;padding:5px}.newsletter input{border:0;outline:0;background:transparent;padding:12px;font-family:inherit}.newsletter button{border-radius:10px}
+footer{background:#0b1020;color:#98a2b3;padding-top:65px}.footer-grid{gap:42px}.footer-brand,.footer-title{color:#fff}.footer a{color:#98a2b3;transition:var(--transition)}footer a:hover{color:#fff}.footer-bottom{border-top:1px solid rgba(255,255,255,.09);padding:22px 0}
+.mobile-toggle{border:1px solid var(--line);border-radius:12px;background:#fff;width:42px;height:42px}.mobile-menu{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-hover);border-radius:16px}
+@media(max-width:1180px){.categories-grid{grid-template-columns:repeat(3,1fr)}.products-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:850px){.main-nav,.search-wrap{display:none}.header-actions{margin-left:auto}.hero{min-height:520px}.hero h1{font-size:52px}.deal-wrap{grid-template-columns:1fr}.deal-img{min-height:300px}.deal-content{padding:38px}.products-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.container{width:calc(100% - 28px)}.header-inner{min-height:68px}.brand{font-size:19px}.brand i{width:34px;height:34px}.section{padding:64px 0}.section-header{display:block}.section-header h2{font-size:27px}.categories-grid{grid-template-columns:repeat(2,1fr);gap:12px}.products-grid{grid-template-columns:1fr;gap:16px}.hero{min-height:560px}.hero .container{padding:70px 0}.hero h1{font-size:42px;letter-spacing:-1.8px}.hero p{font-size:16px}.actions{flex-direction:column;align-items:stretch}.deal-content h2{font-size:31px}.newsletter{padding:32px 22px}.newsletter form{display:flex}.newsletter h2{font-size:28px}.timer-grid{grid-template-columns:repeat(2,1fr)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
 </head>
 
 <body>
@@ -1187,7 +1209,7 @@
             <div class="container">
                 <div class="badge"><i class="fas fa-sparkles"></i> New Collection 2026</div>
                 <h1>Discover Premium <br>Essentials</h1>
-                <p>Curated fashion, tech & accessories with free shipping on your first order. Limited-time deals await.</p>
+                <p>Curated fashion, tech & everyday essentials — selected for quality, value and a better shopping experience.</p>
                 <div class="actions">
                     <button class="btn btn-primary" id="shopNow"><i class="fas fa-arrow-right"></i> Shop Now</button>
                     <button class="btn btn-ghost" id="exploreDeals"><i class="fas fa-clock"></i> Explore Deals</button>
@@ -1274,7 +1296,7 @@
                 <div class="section-header">
                     <div class="title-group">
                         <h2 id="test-title">What Our Customers Say</h2>
-                        <p>Real reviews from real people</p>
+                        <p>Trusted by shoppers who value quality and service</p>
                     </div>
                 </div>
                 <div class="testimonials-scroll" id="testimonialsList"></div>
@@ -1309,7 +1331,7 @@
                         <i class="fas fa-store-alt"></i>
                         <span>Nexus<span class="accent">Shop</span></span>
                     </div>
-                    <p>Modern e‑commerce demo built with care. Quality products, seamless experience.</p>
+                    <p>A modern shopping experience built around quality products, simple discovery and seamless service.</p>
                     <div class="socials">
                         <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
